@@ -26,9 +26,10 @@
     "@adonisjs/repl": "^3.1.11",
     "luxon": "^3.3.0",
     "mysql2": "^3.5.2",
-    "node-xmpp-client": "^3.2.0",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
-    "source-map-support": "^0.5.21"
+    "simple-xmpp": "^2.3.1",
+    "source-map-support": "^0.5.21",
+    "uuidv4": "^6.2.13"
   }
 }

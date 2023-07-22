@@ -9,6 +9,7 @@ export default class extends BaseSchema {
       table.string("username").unique()
       table.string("password")
       table.enum("presence", ["Available", "Unavailable", "Away", "Do_Not_Disturb", "Extended_Away", "Offline"])
+      table.string("key", 64).notNullable().unique();
       table.timestamps(true, true)
     })
   }

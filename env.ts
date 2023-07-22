@@ -32,7 +32,8 @@ export default Env.rules({
 
 	//ejabberd variables
 
-	EJABBERD_JID: Env.schema.string({ format: 'host' }),
+	EJABBERD_JID: Env.schema.string(),
+	EJABBERD_USERNAME: Env.schema.string(),
 	EJABBERD_PASSWORD: Env.schema.string.optional(),
 	EJABBERD_HOST: Env.schema.string({ format: 'host' }),
 	EJABBERD_PORT: Env.schema.number(),	
